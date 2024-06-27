@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html class="he4i.github.io">
-	<script type="text/javascript">
+	
+<script type="text/javascript">
 		window.onload = function() {
-			var startTime = new Date("2024-02-04");
+			var startTime = new Date("2023-10-25");
 			setInterval(function() {
 				var currentTime = new Date();
 				var timeDiff = Math.abs(currentTime - startTime);
@@ -10,17 +11,20 @@
 				var hours = Math.floor((timeDiff % (1000 * 3600 * 24)) / (1000 * 3600));
 				var minutes = Math.floor((timeDiff % (1000 * 3600)) / (1000 * 60));
 				var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
-				document.getElementById("result").innerHTML = "距今已：" + days + "天 " + hours + "小时 " + minutes +
+				document.getElementById("update").innerHTML = "距今已：" + days + "天 " + hours + "小时 " + minutes +
 					"分 " + seconds + "秒";
 			}, 1000); // 每秒钟刷新一次
 		}
 	</script>
+
+
+
 	<head class="studio.net">
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>
-			He4iの小站 </title>
+			氢贰氧の小站 </title>
 		<link rel="icon" href="./static/pic/fish.png">
 		<meta name="description" content="......">
 		<meta name="keywords" content="He4i">
@@ -29,8 +33,7 @@
 		<link rel="stylesheet" href="./static/css/root.css">
 
 	</head>
-		<audio src="./static/pic/badapple.mp3" id="dd" autoplay="autoplay"  loop="loop"></audio>
-	<body>
+			<body>
 		<div id="studio-loading">
 			<div id="studio-loading-center">
 			</div>
@@ -57,74 +60,76 @@
 							<path
 								d="M729.6 234.666667H294.4V157.866667a51.2 51.2 0 0 1 51.2-51.2h332.8a51.2 51.2 0 0 1 51.2 51.2v76.8z m179.2 51.2a51.2 51.2 0 0 1 51.2 51.2v512a51.2 51.2 0 0 1-51.2 51.2H115.2a51.2 51.2 0 0 1-51.2-51.2v-512a51.2 51.2 0 0 1 51.2-51.2h793.557333z m-768 172.032c0 16.384 13.312 29.696 29.696 29.696h683.008a29.696 29.696 0 1 0 0-59.392H170.410667a29.696 29.696 0 0 0-29.696 29.696z m252.416 118.784c0 16.384 13.312 29.696 29.696 29.696h178.176a29.696 29.696 0 1 0 0-59.392H422.912a29.738667 29.738667 0 0 0-29.696 29.696z"
 								p-id="2475"></path>
-						</svg>初三学生</div>
+						</svg>Student</div>
 				</div>
 				<div class="left-div left-tag">
-					<div class="left-tag-item">网易云音乐
-					</div>
 					<div class="left-tag-item">github
 					</div>
-					<div class="left-tag-item">初中生
+					<div class="left-tag-item">♂初中生
 					</div>
 					<div class="left-tag-item">网页
 					</div>
 					<div class="left-tag-item">剪辑
 					</div>
-					<div class="left-tag-item">自制OS
+					<div class="left-tag-item">编程
 					</div>
-					<div class="left-tag-item">Minecreaft🎮
+					<div class="left-tag-item">Minecreaft
 
 					</div>
-					<div class="left-tag-item">哔哩哔哩</div>
+					<div class="left-tag-item">Bilibili</div>
 					<div class="left-tag-item">Grand Theft Auto</div>
 
 			
 				</div>
 				<div class="left-div left-time">
 					<ul id="line">
-						<li>
-							<div class="focus"></div>
-							<div>📕小中考📕
-							</div>
-							<div>2024.6.?</div>
-						</li>
-
 <li>
 							<div class="focus"></div>
-							<div>Rainy OS liny制作完成！！！
+							<div>给我的好哥们赵泰阁过生日🎂！
 							</div>
-							<div>2024.5.25</div>
+							<div>2024.6.29</div>
 						</li>
+
+						<li>
+							<div class="focus"></div>
+							<div>小中考
+							</div>
+							<div>2024.6.16</div>
+						</li>
+
 <li>
 							<div class="focus"></div>
 							<div>修了修网页的bug
 							</div>
 							<div>2024.4.21</div>
 						</li>
-<li>
+						<li>
 							<div class="focus"></div>
-							<div>第二次更改网页样式
+							<div>更改样式为zyyo.net
 							</div>
 							<div>2024.4.19</div>
 						</li>
-
 						<li>
 							<div class="focus"></div>
-							<div>更改为zyyo的样式
-							</div>
-							<div>2024.4</div>
-						</li>
-						<li>
-							<div class="focus"></div>
-							<div>哔哩哔哩账号：he4i 通过实名认证</div>
+							<div>个人B站账号通过实名认证</div>
 							<div>2024.4.6</div>
 						</li>
 						<li>
 							<div class="focus"></div>
-							<div>搭建第一个网站<p id="result" style="font-size:10px;"></p>
+							<div>搭建第一个网站(Team By:23.10.25;Web By:24.2.4)
+
 							</div>
 							<div>2024.2.4</div>
 						</li>
+<li>
+							<div class="focus"></div>
+							<div>建立独属于“我们”的团队：氢贰氧Team
+
+
+<p id="update" style="font-size:12px;"></div>
+							<div>2023.10.25</div>
+						</li>
+
 						<li>
 							<div class="focus"></div>
 							<div>注册第一个哔哩哔哩账号</div>
@@ -140,21 +145,17 @@
 							src="./static/img/logokuang.png">*/
 					</div>
 					<div class="welcome">
-						你好，我是 <span class="gradientText">
-							He4i </span>
+						Hi! 我是 <span class="gradientText">
+							氢贰氧 </span>
 					</div>
-					<div class="description">📕 <span class="purpleText">我</span>是在校学生
+					<div class="description">🙂 <span class="purpleText">站长</span>是在校学生
 					</div>
-					<div class="description">📀 <span class="purpleText">QQ:</span>2184641643
+					
+					<div class="description">📫 <span class="purpleText">邮箱:</span>wo18766962515@163.com
 					</div>
-					<div class="description">🎑 <span class="purpleText">邮箱:</span>wo18766962515@163.com
-					</div>
-					<div class="description">📝 你可以给我提<span class="purpleText textBackground">建议</span> 或着 <span
+					<div class="description">👍 你可以给我提<span class="purpleText textBackground">建议</span> 或 <span
 							class="purpleText textBackground">加入我们</span>！</div>
-					<div class="tanChiShe">
-						<img id="tanChiShe" src="./static/svg/snake-Light.svg" alt="">
-					</div>
-					<div class="iconContainer">
+										<div class="iconContainer">
 						<a class="iconItem" onclick="" href="https://github.com/He4i">
 							<svg t="1704870335945" class="icon" viewBox="0 0 1024 1024" version="1.1"
 								xmlns="http://www.w3.org/2000/svg" p-id="2487">
@@ -210,14 +211,14 @@
 						</a><a class="projectItem a" target="_blank" href="https://github.com/He4i">
 							<div class="projectItemLeft">
 								<h1>github</h1>
-								<p>个人账户</p>
+								<p>我的个人账号</p>
 							</div>
 							<div class="projectItemRight">
 								<img src="./static/pic/github.png" alt="">
 							</div>
 						</a><a class="projectItem a" target="_blank" href="box.html">
 							<div class="projectItemLeft">
-								<h1>被隐藏的东西💥</h1>
+								<h1>😍好东西~</h1>
 								<p>此地无银三百两~</p>
 							</div>
 							<div class="projectItemRight">
@@ -231,21 +232,11 @@
 		</div>
 		</div>
 		<footer>
-			He4iの小站-2024
+			氢贰氧小站-2024 备案个筹币！
 
 
 		</footer>
 
 	</body>
-
-
-
-	<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-	<script>
-		LA.init({
-			id: "KFqltKSkJgQTGD9l",
-			ck: "KFqltKSkJgQTGD9l"
-		})
-	</script>
 
 </html>
